@@ -28,3 +28,7 @@ DEPEND="
 		dev-qt/qtdeclarative:5
 		dev-qt/qtquickcontrols:5
 		dev-libs/extra-cmake-modules"
+
+src_install() {
+	cmake-utils_src_install
+}
